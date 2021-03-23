@@ -1,0 +1,6 @@
+Question: How have cases and total cases developed over time in Andorra?
+The line number: 90-117
+
+1.Find every row where the location is "Andorra" by Boolen.
+2.Create three lists to show the dates, total cases and new cases of Andorra.
+3.Plot the data. The level of x is data.
