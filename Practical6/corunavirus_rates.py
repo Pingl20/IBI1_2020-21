@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 dictionary = {'USA': 29862124, 'India': 11285561, 'Brazil': 11205972, 'Russia': 4360823, 'UK': 4234924}
 print(dictionary)
 # draw the pie plot using plt
-plt.pie(dictionary.values(), labels=dictionary.keys(), autopct='%1.1f%%',
+plt.pie("Corunavirus Rates",
+        dictionary.values(), labels=dictionary.keys(), autopct='%1.1f%%',
         shadow=True, startangle=90)
 plt.axis('equal')
 plt.show()
