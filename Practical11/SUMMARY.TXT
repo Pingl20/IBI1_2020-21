@@ -1,0 +1,21 @@
+SUMMARY
+1. code
+	a. creat a dictronary to contain the blosum
+	b. open the files
+	c. read lines in the file and seperate the sequence and the name into two different varibles
+	d. use the dictronary to caculate the scores
+	c. compare two sequences and count if amino acids are same
+	d. use this count to caculate the percentage
+2. results
+	i) human and mouse
+	   score: 1091
+	   percentage: 0.8963963963963963
+	   interpretation: these two protein sequences are very similar to each other
+	ii) human and random sequence
+   	    score: -250
+	    percentage: 0.05405405405405406	
+                    interpretation: these two protein sequences are not similar to each other. They are quite different.
+	iii) mouse and random sequence
+	    score: -250
+	    percentage: 0.05855855855855856
+	    interpretation: these two sequences are quite different
